@@ -1,2 +1,45 @@
-*.DS_Store
 target/
+
+# Compiled source #
+###################
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+*.retry
+
+*.deb
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.tgz
+*.iso
+*.rar
+*.tar
+*.zip
+*.war
+*.pyc
+.metadata
+# Logs and databases #
+######################
+*.log
+*.out
+#filepath
+.DS_Store
+
+##gradle
+build
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle.properties
+out
+.iml
+
+##idea
+.idea
+*.iml
